@@ -45,7 +45,7 @@ body {
 /* Action */
 .action {
     position: fixed;
-    top: 20%;
+    top: 13%;
     right: 50%;
     transform: translateX(50%);
     -webkit-transform: translateX(50%);
@@ -69,7 +69,7 @@ body {
 
 .action .menu {
     position: absolute;
-    top: 210px;
+    top: 200px;
     right: 20px;
     background: #fff;
     width: 400px;
@@ -149,5 +149,32 @@ body {
 .action .menu ul li a {
     text-decoration: none;
     color: #000;
+}
+
+* Footer */
+
+#footer {
+    margin-top: 350px;
+    background: #3C495E;
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    padding: 1px;
+}
+
+#footer .footer-info {
+    margin-top: 20px;
+}
+
+#footer .footer-info p {
+    font-size: 18px;
+}
+
+#footer .fa-heart {
+    color: #D52A2A;
+}
+
+#footer .fa-coffee {
+    color: #f9ab25;
 }
    
